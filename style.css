@@ -9,6 +9,7 @@ nav {
     background-color: black;
     justify-content: space-between;
     padding: 0 100px;
+    margin: 0;
 }
 
 nav a {
@@ -59,8 +60,4 @@ main {
     content: "";
     display: table;
     clear: both;
-}
-
-@media only screen and (min-width: 600px){
-    
 }
