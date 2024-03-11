@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Information</title>
+    <script src="lab-three.js" defer></script>
+  </head>
+  <body>
+    <h1>Country Information</h1>
+    <input type="text" name="" id="countryNameInput" />
+    <button type="submit" id="submit" onclick="findCountry()">Get Country Info</button>
+
+    <section class="country-info">
+      <article class="main-country">
+        <h2 id="country-name">Country Name</h2>
+        <p id="capital">Capital</p>
+        <p id="population">Population</p>
+        <p id="region">Region</p>
+        <img src="" alt="" id="country-flag">
+      </article>
+      <section class="bordering-countries" id="b-c">
+        <h2>Bordering Countries</h2>
+      </section>
+    </section>
+  </body>
+</html>
+
+<style>
+  .country-info{
+       display: flex;
+       margin: 10px;
+       width: 100%;
+       height: 100%;
+       display:  none;
+  }
+  .main-country{
+    width: 50%;
+  }
+  .bordering-countries{
+    width: 50%;
+  }
+  .borderingCountryFlag{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  #bs{
+    display: flex;
+  }
+</style>
